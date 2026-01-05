@@ -10,10 +10,11 @@
 
 ## **Results:**
 	The network scan showed 3 live hosts. One had 4 TCP ports opened (router), the other two had all ports closed. I scanned my router to find more information about its security controls. 
-	* SSH (22/TCP) was filtered, meaning it is well protected.
-	* DNS (53/TCP) was open and used Cloudflare Public DNS.
-	* Web services were available on ports 80 (HTTP) and 443 (HTTPS).
-	* Two services were not disclosed. The presence of SSH and restricted fingerprinting suggests firewall rules are well set up from preventing information leaks. 
+* SSH (22/TCP) was filtered, meaning it is well protected.
+* DNS (53/TCP) was open and used Cloudflare Public DNS.
+* Web services were available on ports 80 (HTTP) and 443 (HTTPS).
+* Two services were not disclosed. The presence of SSH and restricted fingerprinting suggests firewall rules are well set up from preventing information leaks. 
 
 ## **Conclusion:**
 	The scan showed how Nmap can be used to do reconnaissance of a network and find potential exposures. The scan provided information about the network's protection and attack surface.
+
