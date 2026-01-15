@@ -1,7 +1,7 @@
 # Home Network Security Audit Using Nmap
 
 ## **Aim:**
-	To learn about basic commands used to scan networks using Nmap, ports used and do a basic security check.
+To learn about basic commands used to scan networks using Nmap, ports used and do a basic security check.
 
 ## **Method:**	
 	1. Set up a controlled environment: Run Kali VM & terminal.
@@ -16,7 +16,4 @@ The network scan showed 3 live hosts. One had 4 TCP ports opened (router), the o
 * Two services were not disclosed. The presence of SSH and restricted fingerprinting suggests firewall rules are well set up from preventing information leaks. 
 
 ## **Conclusion:**
-	The scan showed how Nmap can be used to do reconnaissance of a network and find potential exposures. The scan provided information about the network's protection and attack surface.
-
-
-
+The scan showed how Nmap can be used to do reconnaissance of a network and find potential exposures. The scan provided information about the network's protection and attack surface.
